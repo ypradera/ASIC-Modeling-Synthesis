@@ -1,0 +1,29 @@
+****************************************
+Report : area
+Design : gray_adder
+Version: Q-2019.12-SP3
+Date   : Sat Aug  1 15:02:58 2020
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    osu05_stdcells (File: /u/ypradera/Desktop/Project_3/DC_task1/osu05_stdcells.db)
+
+Number of ports:                           39
+Number of nets:                            63
+Number of cells:                           32
+Number of combinational cells:             29
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                          5
+Number of references:                       9
+
+Combinational area:              10827.000000
+Buf/Inv area:                      720.000000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                 10827.000000
+Total area:                 undefined

@@ -1,0 +1,48 @@
+****************************************
+Report : power
+        -analysis_effort low
+Design : designB
+Version: Q-2019.12-SP3
+Date   : Thu Jul 30 13:05:04 2020
+****************************************
+
+
+Library(s) Used:
+
+    osu05_stdcells (File: /u/ypradera/Desktop/Project_3/Design_B/osu05_stdcells.db)
+
+
+Operating Conditions: typical   Library: osu05_stdcells
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 5    
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  = 578.9911 uW   (55%)
+  Net Switching Power  = 464.4672 uW   (45%)
+                         ---------
+Total Dynamic Power    =   1.0435 mW  (100%)
+
+Cell Leakage Power     = 731.4495 pW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      0.5790            0.4645            0.7314            1.0435  ( 100.00%)
+--------------------------------------------------------------------------------------------------
+Total              0.5790 mW         0.4645 mW         0.7314 nW         1.0435 mW

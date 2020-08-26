@@ -1,0 +1,75 @@
+****************************************
+Report : cell
+Design : designA
+Version: Q-2019.12-SP3
+Date   : Tue Jul 28 23:05:21 2020
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U19                       OAI21X1         osu05_stdcells  207.000000
+U20                       NAND2X1         osu05_stdcells  216.000000
+U21                       OAI21X1         osu05_stdcells  207.000000
+U22                       INVX1           osu05_stdcells  144.000000
+U23                       AOI21X1         osu05_stdcells  288.000000
+U24                       OAI21X1         osu05_stdcells  207.000000
+U25                       INVX1           osu05_stdcells  144.000000
+U26                       INVX1           osu05_stdcells  144.000000
+U27                       NAND3X1         osu05_stdcells  324.000000
+U28                       NOR2X1          osu05_stdcells  216.000000
+U29                       INVX1           osu05_stdcells  144.000000
+U30                       NAND3X1         osu05_stdcells  324.000000
+U31                       NOR2X1          osu05_stdcells  216.000000
+U32                       INVX1           osu05_stdcells  144.000000
+U33                       INVX1           osu05_stdcells  144.000000
+U34                       NOR2X1          osu05_stdcells  216.000000
+out_reg[0]                LATCH           osu05_stdcells  0.000000  n
+out_reg[1]                LATCH           osu05_stdcells  0.000000  n
+out_reg[2]                LATCH           osu05_stdcells  0.000000  n
+--------------------------------------------------------------------------------
+Total 19 cells                                            3285.000000
+ 
+****************************************
+Report : cell
+Design : designA
+Version: Q-2019.12-SP3
+Date   : Tue Jul 28 23:05:23 2020
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U19                       OAI21X1         osu05_stdcells  207.000000
+U20                       NAND2X1         osu05_stdcells  216.000000
+U21                       OAI21X1         osu05_stdcells  207.000000
+U22                       INVX1           osu05_stdcells  144.000000
+U23                       AOI21X1         osu05_stdcells  288.000000
+U24                       OAI21X1         osu05_stdcells  207.000000
+U25                       INVX1           osu05_stdcells  144.000000
+U26                       INVX1           osu05_stdcells  144.000000
+U27                       NAND3X1         osu05_stdcells  324.000000
+U28                       NOR2X1          osu05_stdcells  216.000000
+U29                       INVX1           osu05_stdcells  144.000000
+U30                       NAND3X1         osu05_stdcells  324.000000
+U31                       NOR2X1          osu05_stdcells  216.000000
+U32                       INVX1           osu05_stdcells  144.000000
+U33                       INVX1           osu05_stdcells  144.000000
+U34                       NOR2X1          osu05_stdcells  216.000000
+out_reg[0]                LATCH           osu05_stdcells  0.000000  n
+out_reg[1]                LATCH           osu05_stdcells  0.000000  n
+out_reg[2]                LATCH           osu05_stdcells  0.000000  n
+--------------------------------------------------------------------------------
+Total 19 cells                                            3285.000000

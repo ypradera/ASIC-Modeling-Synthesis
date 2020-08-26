@@ -1,0 +1,69 @@
+# Compile of osu05_stdcells.v was successful.
+# Compile of adder_sub_netlist.sv was successful.
+# Compile of adder_sub_netlist_tb.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of osu05_stdcells.v was successful.
+# Compile of adder_sub.sv was successful.
+# Compile of adder_sub_tb.sv was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -vopt work.adder_sub_tb
+# vsim -vopt work.adder_sub_tb 
+# Start time: 15:49:33 on Jul 31,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.adder_sub_tb(fast)
+run -all
+# ** Note: $stop    : /home/ypradera/common/Desktop/Project_3/Task3/adder_sub_tb.sv(60)
+#    Time: 180 ns  Iteration: 0  Instance: /adder_sub_tb
+# Break at /home/ypradera/common/Desktop/Project_3/Task3/adder_sub_tb.sv line 60
+run -all
+# Compile of osu05_stdcells.v was successful.
+# Compile of adder_sub.sv was successful.
+# Compile of adder_sub_tb.sv was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.adder_sub_tb(fast)
+run -all
+# ** Note: $stop    : /home/ypradera/common/Desktop/Project_3/Task3/adder_sub_tb.sv(60)
+#    Time: 180 ns  Iteration: 0  Instance: /adder_sub_tb
+# Break at /home/ypradera/common/Desktop/Project_3/Task3/adder_sub_tb.sv line 60
+# Compile of osu05_stdcells.v was successful.
+# Compile of adder_sub.sv was successful.
+# Compile of adder_sub_tb.sv was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.adder_sub_tb(fast)
+# Compile of osu05_stdcells.v was successful.
+# Compile of adder_sub.sv was successful.
+# Compile of adder_sub_tb.sv was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.adder_sub_tb(fast)
+run -all
+# number1 =      0 :: number2 =      0 :: Out =      0 :: Overflow = 0 :: Carry = 0 :: Op  = 0
+# number1 =   2000 :: number2 =   1000 :: Out =   3000 :: Overflow = 0 :: Carry = 0 :: Op  = 0
+# number1 =   2000 :: number2 =   1000 :: Out =   1000 :: Overflow = 0 :: Carry = 0 :: Op  = 1
+# number1 =   2000 :: number2 =  -1000 :: Out =   1000 :: Overflow = 0 :: Carry = 1 :: Op  = 0
+# number1 =   2000 :: number2 =  -1000 :: Out =   3000 :: Overflow = 0 :: Carry = 1 :: Op  = 1
+# number1 =  -2000 :: number2 =  -1000 :: Out =  -3000 :: Overflow = 0 :: Carry = 1 :: Op  = 0
+# number1 =  -2000 :: number2 =  -1000 :: Out =  -1000 :: Overflow = 0 :: Carry = 1 :: Op  = 1
+# number1 =  13604 :: number2 =  24193 :: Out = -10589 :: Overflow = 0 :: Carry = 1 :: Op  = 1
+# number1 = -10743 :: number2 =  22115 :: Out =  11372 :: Overflow = 0 :: Carry = 1 :: Op  = 0
+# number1 =  31501 :: number2 = -26227 :: Out =  -7808 :: Overflow = 1 :: Carry = 1 :: Op  = 1
+# number1 = -31643 :: number2 =  21010 :: Out = -10633 :: Overflow = 0 :: Carry = 0 :: Op  = 0
+# number1 =  -7423 :: number2 = -13043 :: Out =   5620 :: Overflow = 0 :: Carry = 0 :: Op  = 1
+# number1 =  -3722 :: number2 = -12995 :: Out = -16717 :: Overflow = 0 :: Carry = 1 :: Op  = 0
+# number1 =  22509 :: number2 =  -2164 :: Out =  24673 :: Overflow = 0 :: Carry = 1 :: Op  = 1
+# number1 =  -5639 :: number2 =   9414 :: Out =   3775 :: Overflow = 0 :: Carry = 1 :: Op  = 0
+# number1 = -31547 :: number2 = -11606 :: Out = -19941 :: Overflow = 0 :: Carry = 1 :: Op  = 1
+# number1 =  -2075 :: number2 =  29303 :: Out =  27228 :: Overflow = 0 :: Carry = 1 :: Op  = 0
+# number1 =  -2075 :: number2 =  29303 :: Out = -31378 :: Overflow = 0 :: Carry = 0 :: Op  = 1
+# ** Note: $stop    : /home/ypradera/common/Desktop/Project_3/Task3/adder_sub_tb.sv(60)
+#    Time: 180 ns  Iteration: 0  Instance: /adder_sub_tb
+# Break at /home/ypradera/common/Desktop/Project_3/Task3/adder_sub_tb.sv line 60

@@ -1,0 +1,43 @@
+****************************************
+Report : cell
+Design : gray_adder
+Version: Q-2019.12-SP3
+Date   : Sat Aug  1 15:02:03 2020
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U3                        OAI21X1         osu05_stdcells  207.000000
+U4                        OAI21X1         osu05_stdcells  207.000000
+U5                        INVX1           osu05_stdcells  144.000000
+U6                        XNOR2X1         osu05_stdcells  504.000000
+U7                        INVX1           osu05_stdcells  144.000000
+U8                        AOI21X1         osu05_stdcells  288.000000
+U9                        INVX1           osu05_stdcells  144.000000
+U10                       OAI21X1         osu05_stdcells  207.000000
+U11                       XNOR2X1         osu05_stdcells  504.000000
+U12                       XNOR2X1         osu05_stdcells  504.000000
+U13                       OAI21X1         osu05_stdcells  207.000000
+U14                       OAI21X1         osu05_stdcells  207.000000
+U15                       INVX1           osu05_stdcells  144.000000
+U16                       XNOR2X1         osu05_stdcells  504.000000
+U17                       XNOR2X1         osu05_stdcells  504.000000
+U18                       XNOR2X1         osu05_stdcells  504.000000
+U19                       INVX1           osu05_stdcells  144.000000
+U20                       NAND2X1         osu05_stdcells  216.000000
+U21                       XOR2X1          osu05_stdcells  504.000000
+convert_a                 gray_to_bin_0                   1512.000000
+                                                                    h
+convert_b                 gray_to_bin_1                   1512.000000
+                                                                    h
+convert_x                 bin_to_gray                     2016.000000
+                                                                    h
+--------------------------------------------------------------------------------
+Total 22 cells                                            10827.000000

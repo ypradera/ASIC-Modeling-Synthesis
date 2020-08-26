@@ -1,0 +1,28 @@
+****************************************
+Report : area
+Design : modelB
+Version: Q-2019.12-SP3
+Date   : Sat Aug  1 05:27:08 2020
+****************************************
+
+Library(s) Used:
+
+    osu05_stdcells (File: /u/ypradera/Desktop/Project_3/Task4/osu05_stdcells.db)
+
+Number of ports:                            4
+Number of nets:                            54
+Number of cells:                           51
+Number of combinational cells:             37
+Number of sequential cells:                 7
+Number of macros/black boxes:               0
+Number of buf/inv:                          9
+Number of references:                       8
+
+Combinational area:              10215.000000
+Buf/Inv area:                     1296.000000
+Noncombinational area:           11088.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                 21303.000000
+Total area:                 undefined

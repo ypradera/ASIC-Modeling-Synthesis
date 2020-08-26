@@ -1,0 +1,67 @@
+****************************************
+Report : cell
+Design : modelC
+Version: Q-2019.12-SP3
+Date   : Sat Aug  1 14:41:44 2020
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U45                       NOR2X1          osu05_stdcells  216.000000
+U46                       NAND2X1         osu05_stdcells  216.000000
+U47                       MUX2X1          osu05_stdcells  432.000000
+U48                       AND2X1          osu05_stdcells  288.000000
+U49                       NOR2X1          osu05_stdcells  216.000000
+U50                       MUX2X1          osu05_stdcells  432.000000
+U51                       NOR2X1          osu05_stdcells  216.000000
+U52                       MUX2X1          osu05_stdcells  432.000000
+U53                       NAND2X1         osu05_stdcells  216.000000
+U54                       INVX1           osu05_stdcells  144.000000
+U55                       NAND3X1         osu05_stdcells  324.000000
+U56                       NOR2X1          osu05_stdcells  216.000000
+U57                       MUX2X1          osu05_stdcells  432.000000
+U58                       NOR2X1          osu05_stdcells  216.000000
+U59                       INVX1           osu05_stdcells  144.000000
+U60                       MUX2X1          osu05_stdcells  432.000000
+U61                       NAND2X1         osu05_stdcells  216.000000
+U62                       MUX2X1          osu05_stdcells  432.000000
+U63                       NAND2X1         osu05_stdcells  216.000000
+U64                       OAI21X1         osu05_stdcells  207.000000
+U65                       NAND3X1         osu05_stdcells  324.000000
+U66                       OAI21X1         osu05_stdcells  207.000000
+U67                       NAND3X1         osu05_stdcells  324.000000
+U68                       NOR2X1          osu05_stdcells  216.000000
+U69                       INVX1           osu05_stdcells  144.000000
+U70                       INVX1           osu05_stdcells  144.000000
+U71                       NAND3X1         osu05_stdcells  324.000000
+U72                       NOR2X1          osu05_stdcells  216.000000
+U73                       INVX1           osu05_stdcells  144.000000
+U74                       INVX1           osu05_stdcells  144.000000
+U75                       INVX1           osu05_stdcells  144.000000
+U76                       INVX1           osu05_stdcells  144.000000
+U77                       INVX1           osu05_stdcells  144.000000
+U78                       INVX1           osu05_stdcells  144.000000
+U79                       NOR2X1          osu05_stdcells  216.000000
+state_reg[0]              DFFSR           osu05_stdcells  1584.000000
+                                                                    n
+state_reg[1]              DFFSR           osu05_stdcells  1584.000000
+                                                                    n
+state_reg[2]              DFFSR           osu05_stdcells  1584.000000
+                                                                    n
+state_reg[3]              DFFSR           osu05_stdcells  1584.000000
+                                                                    n
+state_reg[4]              DFFSR           osu05_stdcells  1584.000000
+                                                                    n
+state_reg[5]              DFFSR           osu05_stdcells  1584.000000
+                                                                    n
+state_reg[6]              DFFSR           osu05_stdcells  1584.000000
+                                                                    n
+--------------------------------------------------------------------------------
+Total 42 cells                                            19710.000000

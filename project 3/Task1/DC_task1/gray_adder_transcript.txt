@@ -1,0 +1,154 @@
+# Reading C:/questasim64_10.4e/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.4e win64 Apr  9 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading project Task1
+vsim -gui work.gray_adder_tb -novopt
+# vsim -gui work.gray_adder_tb -novopt 
+# Start time: 15:12:39 on Aug 01,2020
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Loading sv_std.std
+# Loading work.gray_adder_tb
+# Loading work.gray_adder
+# Loading work.gray_to_bin
+# Loading work.bin_to_gray
+run -all
+#                     0x=xxxxx,a=xxxx,b=xxxx
+#                     1x=00000,a=0000,b=0000
+#                     2x=00001,a=0001,b=0000
+#                     3x=00010,a=0010,b=0000
+#                     4x=00011,a=0011,b=0000
+#                     5x=00000,a=0000,b=0000
+#                     6x=00001,a=0000,b=0001
+#                     7x=00010,a=0000,b=0010
+#                     8x=00011,a=0000,b=0011
+#                     9x=00000,a=0000,b=0000
+#                    10x=01100,a=0001,b=0100
+#                    11x=11011,a=0010,b=1000
+#                    12x=01111,a=0011,b=1100
+#                    13x=00100,a=0100,b=0000
+#                    14x=11000,a=1000,b=0001
+#                    15x=01110,a=1100,b=0010
+#                    16x=11001,a=1000,b=0011
+# ** Note: $finish    : C:/Users/prade/Desktop/Project 3/Task1/DC_task1/gray_adder_tb.sv(33)
+#    Time: 26 ns  Iteration: 0  Instance: /gray_adder_tb
+# 1
+# Break in Module gray_adder_tb at C:/Users/prade/Desktop/Project 3/Task1/DC_task1/gray_adder_tb.sv line 33
+quit -sim
+# End time: 15:15:44 on Aug 01,2020, Elapsed time: 0:03:05
+# Errors: 0, Warnings: 1
+# Compile of gray_adder_tb.sv was successful.
+# Compile of gray_adder_netlist.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui -novopt work.gray_adder_tb
+# vsim -gui -novopt work.gray_adder_tb 
+# Start time: 15:17:52 on Aug 01,2020
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing C:/questasim64_10.4e/examples/work.gray_adder_tb
+# Loading sv_std.std
+# Loading work.gray_adder_tb
+# Refreshing C:/questasim64_10.4e/examples/work.gray_adder
+# Loading work.gray_adder
+# Refreshing C:/questasim64_10.4e/examples/work.gray_to_bin_0
+# Loading work.gray_to_bin_0
+# Refreshing C:/questasim64_10.4e/examples/work.XOR2X1
+# Loading work.XOR2X1
+# Refreshing C:/questasim64_10.4e/examples/work.gray_to_bin_1
+# Loading work.gray_to_bin_1
+# Refreshing C:/questasim64_10.4e/examples/work.bin_to_gray
+# Loading work.bin_to_gray
+# Loading work.OAI21X1
+# Loading work.INVX1
+# Refreshing C:/questasim64_10.4e/examples/work.XNOR2X1
+# Loading work.XNOR2X1
+# Loading work.AOI21X1
+# Loading work.NAND2X1
+run -all
+#                     0x=xxxxx,a=xxxx,b=xxxx
+#                     1x=xxxxx,a=0000,b=0000
+#                     1x=0xxxx,a=0000,b=0000
+#                     2x=0x0xx,a=0000,b=0000
+#                     2x=000xx,a=0000,b=0000
+#                     2x=000x0,a=0000,b=0000
+#                     2x=00000,a=0000,b=0000
+#                     2x=00000,a=0001,b=0000
+#                     3x=00001,a=0001,b=0000
+#                     3x=00001,a=0010,b=0000
+#                     4x=00000,a=0010,b=0000
+#                     4x=00010,a=0010,b=0000
+#                     4x=00010,a=0011,b=0000
+#                     5x=00011,a=0011,b=0000
+#                     5x=00011,a=0000,b=0000
+#                     6x=00001,a=0000,b=0000
+#                     6x=00000,a=0000,b=0000
+#                     6x=00000,a=0000,b=0001
+#                     7x=00001,a=0000,b=0001
+#                     7x=00001,a=0000,b=0010
+#                     7x=00000,a=0000,b=0010
+#                     8x=00010,a=0000,b=0010
+#                     8x=00010,a=0000,b=0011
+#                     8x=00011,a=0000,b=0011
+#                     9x=00011,a=0000,b=0000
+#                    10x=00010,a=0000,b=0000
+#                    10x=00000,a=0000,b=0000
+#                    10x=00000,a=0001,b=0100
+#                    11x=00001,a=0001,b=0100
+#                    11x=00011,a=0001,b=0100
+#                    11x=00111,a=0001,b=0100
+#                    11x=00110,a=0001,b=0100
+#                    11x=00110,a=0010,b=1000
+#                    11x=00100,a=0010,b=1000
+#                    11x=00000,a=0010,b=1000
+#                    11x=10000,a=0010,b=1000
+#                    12x=10001,a=0010,b=1000
+#                    12x=11001,a=0010,b=1000
+#                    12x=11011,a=0010,b=1000
+#                    12x=11011,a=0011,b=1100
+#                    13x=11010,a=0011,b=1100
+#                    13x=01010,a=0011,b=1100
+#                    13x=01011,a=0011,b=1100
+#                    13x=01111,a=0011,b=1100
+#                    13x=01111,a=0100,b=0000
+#                    14x=00111,a=0100,b=0000
+#                    14x=00110,a=0100,b=0000
+#                    14x=00100,a=0100,b=0000
+#                    14x=00100,a=1000,b=0001
+#                    14x=00000,a=1000,b=0001
+#                    14x=01000,a=1000,b=0001
+#                    15x=11000,a=1000,b=0001
+#                    15x=11100,a=1000,b=0001
+#                    15x=11000,a=1000,b=0001
+#                    15x=11000,a=1100,b=0010
+#                    15x=01000,a=1100,b=0010
+#                    15x=01001,a=1100,b=0010
+#                    16x=00001,a=1100,b=0010
+#                    16x=00000,a=1100,b=0010
+#                    16x=01000,a=1100,b=0010
+#                    16x=01001,a=1100,b=0010
+#                    16x=01101,a=1100,b=0010
+#                    16x=01100,a=1100,b=0010
+#                    16x=01110,a=1000,b=0011
+#                    16x=01111,a=1000,b=0011
+#                    17x=01101,a=1000,b=0011
+#                    17x=01001,a=1000,b=0011
+#                    17x=11001,a=1000,b=0011
+#                    17x=11101,a=1000,b=0011
+#                    17x=11001,a=1000,b=0011
+# ** Note: $finish    : C:/Users/prade/Desktop/Project 3/Task1/DC_task1/gray_adder_tb.sv(33)
+#    Time: 26 ns  Iteration: 0  Instance: /gray_adder_tb
+# 1
+# Break in Module gray_adder_tb at C:/Users/prade/Desktop/Project 3/Task1/DC_task1/gray_adder_tb.sv line 33
