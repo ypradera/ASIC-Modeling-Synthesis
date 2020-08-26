@@ -1,0 +1,19 @@
+# Loading sv_std.std
+# Loading work.CLA_16BIT_TB(fast)
+# Loading work.CLA_16BIT(fast)
+# Loading work.CLA_4BIT(fast)
+# 
+# vsim -voptargs=+acc=npr
+# run -all
+# The input we have is A: 0000000000000000, B: 0000000000000000, cin: 0, sum: 0000 Y(Output):0 
+# The input we have is A: 0000000000000001, B: 0000000000000000, cin: 0, sum: 0001 Y(Output):0 
+# The input we have is A: 0000111100001111, B: 1111000011110000, cin: 0, sum: ffff Y(Output):0 
+# The input we have is A: 1111111100000000, B: 0000000011111111, cin: 1, sum: 0000 Y(Output):1 
+# The input we have is A: 1111111111110000, B: 0000111111110000, cin: 0, sum: 0fe0 Y(Output):1 
+# The input we have is A: 0000000000001111, B: 1111111100000000, cin: 1, sum: ff10 Y(Output):0 
+# The input we have is A: 1111111100000000, B: 0000111111110000, cin: 0, sum: 0ef0 Y(Output):1 
+# The input we have is A: 0000111111111111, B: 0000111100000000, cin: 1, sum: 1f00 Y(Output):0 
+# ** Note: $finish    : testbench.sv(47)
+#    Time: 180 ns  Iteration: 0  Instance: /CLA_16BIT_TB
+# End time: 02:32:28 on Jul 07,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

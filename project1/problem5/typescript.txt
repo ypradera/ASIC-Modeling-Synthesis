@@ -1,0 +1,13 @@
+# Loading sv_std.std
+# Loading work.problem5_tb(fast)
+# Loading work.problem5(fast)
+# Loading work.HA(fast)
+# Loading work.FA(fast)
+# 
+# vsim -voptargs=+acc=npr
+# run -all
+# IN1 =  43   ::   IN2 = 112   ::   OUT(WALLACE) =  2768    ::   Product(IN1 * IN2) =        4816
+# exit
+# End time: 02:38:00 on Jul 07,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+Done

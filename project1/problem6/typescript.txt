@@ -1,0 +1,14 @@
+# Loading sv_std.std
+# Loading work.shifter(fast)
+# Loading work.right(fast)
+# Loading work.left(fast)
+# 
+# vsim -voptargs=+acc=npr
+# run -all
+#  Initalized Input:                         11100000000000000000000000000000
+# New Output after shifting to the right:    00011100000000000000000000000000
+# Initalized Input:                          11100000000000000000000000000000
+# New Output after shifting to the left:     00000000000000000000000000000000
+# exit
+# End time: 02:43:33 on Jul 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
